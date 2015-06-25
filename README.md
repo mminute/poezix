@@ -1,8 +1,10 @@
-# Poezix
+Adds an alias #times method called #upon_a_midnight_dreary to the Integer class
+and String class, allowing you to call the method on 'once', 'twice', or 'thrice'.
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/poezix`. To experiment with that code, run `bin/console` for an interactive prompt.
+Adds an alias to the #puts method called #quoth that upcases and adds exclamation marks. Defaults to "NEVERMORE!!!"
 
-TODO: Delete this and the text above, and describe your gem
+Adds an method to provide lorem_ipsum like filler content from the stories and poems of Edgar Allan Poe.  Passing an integer arguement selects the number of lines of text to return.  Default is to return the entire poem/story.
+
 
 ## Installation
 
@@ -22,7 +24,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Try it!!! It's pretty simple so not much can go wrong.
 
 ## Development
 
