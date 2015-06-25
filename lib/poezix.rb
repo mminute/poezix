@@ -38,7 +38,7 @@ end
 
 
 def poesem_ipsum(number_of_lines = "full")
-  all_texts = File.dirname(__FILE__) + "/texts/*.txt"
+  all_texts = Dir[File.dirname(__FILE__) + "/texts/*.txt"]
   #all_texts = Dir["./texts/*.txt"]
   number_of_texts = all_texts.size
   selection = rand(1..number_of_texts)
