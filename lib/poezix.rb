@@ -51,7 +51,3 @@ def poesem_ipsum(number_of_lines = "full")
 
   text[0..number_of_lines].join
 end
-
-  logo_path = File.join( File.dirname(__FILE__), '../logo.txt' )
-file = File.open( logo_path )
-
